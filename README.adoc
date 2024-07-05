@@ -12,3 +12,8 @@ simmple golang struct field tag generator for plan9 acme editor.
 --
 	|agost
 --
+
+image::img_1.png[img_1,500,400]
+
+
+image::img_2.png[img_2,500,400]
