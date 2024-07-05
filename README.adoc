@@ -1,2 +1,3 @@
 = agost
+
 simmple golang struct field tag generator for plan9 acme editor.
