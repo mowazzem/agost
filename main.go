@@ -38,9 +38,15 @@ func main() {
 				fcriFound = true
 				continue
 			}
-			if c == '_' || (c >= 65 && c <= 90) {
+
+			if i >= 1 && capital(int32(part1[i-1])) {
+				continue
+			}
+
+			if capital(c) {
 				idxs = append(idxs, i)
 			}
+
 		}
 		idxs = append(idxs, len(part1))
 
@@ -59,4 +65,11 @@ func main() {
 	for _, tag := range tagStrs {
 		fmt.Println(tag)
 	}
+}
+
+func capital(c int32) bool {
+	if c == '_' || (c >= 65 && c <= 90) {
+		return true
+	}
+	return false
 }
