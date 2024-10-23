@@ -1,6 +1,6 @@
 = agost
 
-simmple golang struct field tag generator for plan9 acme editor.
+simmple golang struct field tag generator for plan9 Acme editor.
 
 == Installation
 
